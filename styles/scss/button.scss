@@ -1,0 +1,113 @@
+button.watch {
+	width: 228px;
+	height: 48px;
+	border: 1px solid $color_border_brown;
+	background-color: $main_bg_color;
+	color: $color_white;
+	font-size: 20px;
+	font-family: Teko-Regular;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-top: 20px;
+}
+
+button.watch img {
+	margin-right: 10px;
+	margin-top: 8px;
+}
+
+button.discover-more {
+	width: 154px;
+	height: 70px;
+	background-color: $main_bg_color;
+	border: none;
+	margin-top: 180px;
+	opacity: 0.7;
+	font-size: 18px;
+	font-family: Teko-Regular;
+	letter-spacing: 2.7px;
+	color: $color_white;
+	text-transform: uppercase;
+	font-weight: 100;
+	text-align: center;
+}
+
+button.explore-more {
+	width: 234px;
+	height: 54px;
+	background-color: $color_red;
+	border: none;
+	font-family: Teko-Regular;
+	font-size: 20px;
+	color: $color_white;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+
+button.explore-more-white {
+	background-color: $color_white;
+	color: #000000;
+}
+
+button.show-more-projects {
+	width: 134px;
+	height: 26px;
+	background-color: $main_bg_color;
+	border: none;
+	border-bottom: 4px solid $color_white;
+	color: $color_white;
+	font-family: Teko-Regular;
+	text-transform: uppercase;
+	color: 20px;
+	letter-spacing: 2.4px;
+	padding-bottom: 8px;
+	margin-top: 20px;
+}
+
+button.projects-width-block {
+	background-color: $color_white;
+	border-color: $color_red;
+	color: $color_red;
+}
+
+button.play-video {
+	background-color: $main_bg_color;
+	border: none;
+	margin-bottom: 40px;
+}
+
+button.purchase {
+	width: 272px;
+	height: 54px;
+	background-color: $color_white;
+	border: none;
+	color: $color_block_brown-1;
+	font-family: Teko-Regular;
+	text-transform: uppercase;
+	font-size: 20px;
+	letter-spacing: 3px;
+
+}
+
+button.show-all-projects {
+	position: relative;
+	width: 272px;
+	height: 52px;
+	background-color: $color_red;
+	border: none;
+	color: $color_white;
+	font-family: Teko-Regular;
+	text-transform: uppercase;
+	font-size: 20px;
+	letter-spacing: 3px;
+	float: right;
+	margin-top: 40px;
+}
+
+
+button.show-all-projects img {
+	position: absolute;
+	right: 28px;
+	
+}
+

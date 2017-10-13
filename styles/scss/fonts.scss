@@ -1,0 +1,168 @@
+@font-face {
+	font-family: Titillium;
+	src:url(../fonts/Titillium/TitilliumWeb-Regular.ttf);
+}
+
+@font-face {
+	font-family: Titillium-Light;
+	src:url(../fonts/Titillium/TitilliumWeb-Light.ttf);
+}
+
+@font-face {
+	font-family: Teko-Light;
+	src:url(../fonts/Teko/Teko-Light.ttf);
+}
+
+@font-face {
+	font-family: Teko-Regular;
+	src:url(../fonts/Teko/Teko-Regular.ttf);
+}
+
+@font-face {
+	font-family: Roboto;
+	src:url(../fonts/Roboto/Roboto-Light.ttf);
+}
+
+h1 {
+	font-family: Teko-Light;
+	font-size: 120px;
+	letter-spacing: 18px;
+	text-transform: uppercase;
+	font-weight: 100;
+	color: $color_white;
+	padding-top: 300px;
+	margin: 0;
+}
+
+h2 {
+	font-family: Teko-Regular;
+	font-size: 50px;
+	letter-spacing: 9px;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: $color_white;
+}
+
+h3 {
+	font-family: Teko-Regular;
+	font-size: 40px;
+	letter-spacing: 4.8px;
+	text-transform: uppercase;
+	margin: 0;
+	margin-top: 20px;
+}
+
+.branch-brown h3 {
+	color: $color_white;
+	letter-spacing: 3px;
+	margin-top: 82px;
+}
+
+section.branch-red h3 {
+	color: $color_white;
+	letter-spacing: 3px;
+
+}
+
+h4 {
+	font-family: Teko-Regular;
+	font-size: 30px;
+	letter-spacing: 3.6px;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.social-block h4 {
+	color: $color_white;
+}
+
+h5, .heading a {
+	font-family: Teko-Regular;
+	font-size: 20px;
+	letter-spacing: 2.4px;
+	color: $color_text_black;
+	margin: 0;
+	float: left;
+	text-transform: uppercase;
+}
+
+.heading a {
+	color: $color_text-grey;
+	text-decoration: none;
+}
+
+.heading a:hover {
+	color: $color_red;
+}
+
+p.block-model {
+	font-family: Titillium-Light;
+	font-size: 18px;
+	color: $color_white;
+	opacity: 0.7;
+	font-weight: 100;
+}
+
+p.block-suggest {
+	font-family: Titillium-Light;
+	font-size: 16px;
+	color: $color_text-grey;
+	font-weight: 300;	
+}
+
+p.adress {
+	font-family: Teko-Regular;
+	font-size: 18px;
+	text-transform: uppercase;
+	letter-spacing: 1.35;
+}
+
+p.banner {
+	font-family: Titillium-Light;
+	font-size: 22px;
+	color: $color_white;
+	opacity: 0.7;
+	font-weight: 100;
+}
+
+p.projects-width-block {
+	margin: 0;
+	font-family: Titillium-Light;
+	font-size: 14px;
+	color: $color_text-grey;
+}
+
+p.video-block {
+	font-family: Teko-Regular;
+	font-size: 20px;
+	letter-spacing: 2.4px;
+	color: $color_white;
+	margin: 0;
+	text-transform: uppercase;
+
+}
+
+p.branch-red, p.branch-brown {
+	font-family: Roboto;
+	font-size: 16px;
+	color: $color_white;
+	opacity: 0.7;
+}
+
+p.footer-col-logo {
+	font-family: Teko-Light;
+	font-size: 16px;
+	color: $color_text-grey;
+	letter-spacing: 0.8px;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+
+p.footer-list-col {
+	font-family: Titillium-Light;
+	font-size: 14px;
+	color: $color_text-grey;
+	
+
+}

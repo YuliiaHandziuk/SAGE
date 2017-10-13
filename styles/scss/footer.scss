@@ -1,0 +1,110 @@
+@import 'header';
+
+
+footer {
+	display: block;
+	width: 100%;
+	height: 360px;
+	background-color: $color_white;
+	padding-top: 60px;
+}
+
+.list-col, .list-col-width {
+	display: block;
+	width: 23%;
+	height: 294px;
+	float: left;
+	margin-right: 28px;
+}
+
+.list-col-width {
+	width: 38%;
+
+}
+
+.list-col ul:nth-child(2n)
+
+.list-col:last-child {
+	margin-right: 0;
+}
+
+hr {
+	height: 4px;
+	background-color: $main_bg_color;
+}
+
+ul {
+	float: left; 
+	margin-right: 90px;
+}
+
+.list-col a, .list-col-width a {
+	font-family: Titillium-Light;
+	font-size: 14px;
+	color: $color_text-grey;
+	letter-spacing: 0.14px;
+	line-height: 30px;
+	text-decoration: none;
+}
+
+.col-logo {
+	display: block;
+	width: 20%;
+}
+
+input.search {
+	display: block;
+	width: 180px;
+	height: 48px;
+	border: 1px solid $color_border_grey;
+	background-color: $color_white;
+	font-size: 14px;
+	font-family: Titillium-Light;
+	color: $color_text-grey;
+	padding-left: 10px;
+	float: left;
+}
+
+input.btn-signup {
+	display: block;
+	width: 80px;
+	height: 48px;
+	background-color: $main_bg_color;
+	border: none;
+	font-size: 16px;
+	font-family: Teko-Regular;
+	color: $color_white;
+	text-transform: uppercase;
+	float: left;
+}
+
+.copyright {
+	display: inline-block;
+	width: 100%;
+	height: 24px;
+	border-top: 1px solid $color_border_grey;
+	padding-top: 28px;
+	padding-bottom: 28px;
+}
+
+.copyright p, .copyright a {
+	font-family: Titillium-Light;
+	font-size: 13px;
+	color: $color_text-grey;
+	letter-spacing: 0.33px;
+	line-height: 30px;
+	text-decoration: none;
+	margin: 0;
+}
+
+.copyright p {
+	float: left;
+}
+
+.copyright a {
+	float: right;
+	margin-left: 8px;
+}
+
+
+
