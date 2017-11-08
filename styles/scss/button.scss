@@ -46,7 +46,7 @@ button.explore-more {
 
 button.explore-more-white {
 	background-color: $color_white;
-	color: #000000;
+	color: $color_text_black;
 }
 
 button.show-more-projects {
@@ -89,7 +89,13 @@ button.purchase {
 
 }
 
-button.show-all-projects {
+button.purchase-sage-now {
+	background-color: $color_red;
+	border: 1px solid rgba(255,255,255,0.2);
+	color: $color_white;
+}
+
+button.show-all-projects, button.mobile-development {
 	position: relative;
 	width: 272px;
 	height: 52px;
@@ -101,13 +107,78 @@ button.show-all-projects {
 	font-size: 20px;
 	letter-spacing: 3px;
 	float: right;
-	margin-top: 40px;
+	
 }
 
 
-button.show-all-projects img {
+button.show-all-projects img, button.mobile-development img {
 	position: absolute;
-	right: 28px;
-	
+	right: 20px;
+	top: 20px;	
+}
+
+button.show-more-projects-red {
+	background-color: $color_white;
+	color: $color_red;
+	border: none;
+	border-bottom: 4px solid $color_red;
+	font-family: Teko-Regular;
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 2.4px;
+	margin-left: 448px;
+}
+
+input.user {
+	width: 342px;
+	height: 52px;
+	border: 1px solid rgba(255,255,255,0.2);
+	float: left;
+	background-color: $color_block_brown-2;
+	margin-right: 28px;
+	padding-left: 8px;
+	font-family: Teko-Regular;
+	font-size: 16px;
+	color: $color_white;
+}
+
+textarea {
+	width: 1102px;
+	height: 372px;
+	background-color: $color_block_brown-2;
+	border: 1px solid rgba(255,255,255,0.2);
+	float: left;
+	margin-top: 28px;
+	margin-bottom: 28px;
+	padding-left: 8px;
+	padding-top: 8px;
+	font-family: Teko-Regular;
+	font-size: 16px;
+	color: $color_white;
+}
+
+input.send-message {
+	width: 172px;
+	height: 52px;
+	background-color: $color_white;
+	border: none;
+	font-family: Teko-Regular;
+	font-size: 20px;
+	color: $color_button_brown;
+	letter-spacing: 2.4px;
+
+}
+
+button.view {
+	width: 234px;
+	height: 54px;
+	background-color: $color_red;
+	border: 1px solid rgba(255,255,255,0.2);
+	font-family: Teko-Regular;
+	font-size: 20px;
+	color: $color_white;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	font-weight: 100;
 }
 
